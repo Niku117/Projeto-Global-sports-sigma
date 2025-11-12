@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Blackops;
+    src: url(../font/BlackOpsOne-Regular.ttf);
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -7,6 +12,7 @@ body {
 img {
     height: 85px;
     width: 90px;
+    padding-top: 5px;
 }
 
 #login {
@@ -21,5 +27,28 @@ img {
 #texto-logo {
     margin-left: 20px;
     font-size: 35px;
-    
+    font-family: Blackops;
+}
+
+#container
+ {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-left: 58px;
+}
+
+#fields {
+    font-size: 20px;
+}
+
+#rcp-senha {
+    margin-right: 65px;
+    list-style: none;
+}
+
+#rcp-senha a {
+    list-style: none;
 }
