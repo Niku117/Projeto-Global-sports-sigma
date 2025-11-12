@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #253943;
+}
+
+img {
+    height: 85px;
+    width: 90px;
+}
+
+#login {
+    display: flex;
+    background-color: #989A9B;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#texto-logo {
+    margin-left: 20px;
+    font-size: 35px;
+    
+}
