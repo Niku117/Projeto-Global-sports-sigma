@@ -1,3 +1,81 @@
-#logo {
-    height: 100px;
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+@font-face {
+    font-family: 'BlackopsOpsOne-Regular';
+    src: url(../font/BlackOpsOne-Regular.ttf);
+}
+
+header{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    background-color: #0a516d;
+    width: 100%;
+}
+
+#logos{
+  display: flex;
+  padding: 0px 20px;
+  font-family: 'BlackopsOpsOne-Regular';
+  font-weight: normal;
+    color: #b9d7d9;
+}
+
+header h1{
+font-size: 30px;
+margin-left: 30px;
+}
+
+#logo{
+    margin-top: 5px;
+    height: 80px;
+    width: 80px;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 12px; 
+ 
+}
+
+#botao-login{
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #e6b33d;
+}
+
+#botao-cadastro{
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #e6b33d;
+}
+#botao-login:hover, #botao-cadastro:hover{
+    background-color: #f7a21b;
+
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 25px;
 }
